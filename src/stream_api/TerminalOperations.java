@@ -9,7 +9,7 @@ public class TerminalOperations {
         //в определённом виде
 
         //count - возвращает количество элементов
-        List<Integer> numbers = List.of(1, 2, 3);
+        List<String> numbers = List.of("Видеокарта", "Монитор", "Процессор", "Клавиатура", "наушники");
         System.out.println("Количество элементов: " + numbers.stream().count());
 
         //forEach - действие с каждым элементом
